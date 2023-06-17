@@ -1,0 +1,205 @@
+
+body {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1 {
+    color: #64CD96;
+    font-size: 4vw;
+    margin-left: 130px;
+    width: 60%;
+}
+
+h2 {
+    position: absolute;
+    width: 57%;
+    height: 112px;
+    left: 20%;
+    top: 152px;
+    color: #64CD96;
+    font-size: 3.9vw;
+}
+
+.burrito {
+    position: absolute;
+    width: 15%;
+    height: 125px;
+    left: 65%;
+    top: 10px;
+}
+
+.fruitBowls {
+    margin-top: 50px;
+    margin-bottom: 15px;
+    width: 15%;
+}
+
+.pizza {
+    position: absolute;
+    width: 12%;
+    height: 131px;
+    left: 85%;
+    top: 10px;
+}
+
+.bowl {
+    position: absolute;
+    width: 13%;
+    height: 130px;
+    left: 85%;
+    top: 170px;
+}
+
+.drinks {
+    width: 15%;
+    height: 153px;  
+}
+
+.shake {
+    width: 8%;
+    height: 130px;
+    padding-left: 30px;
+    border-radius: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 220;
+    left: 63%;
+    top: 35%;
+    border: white;
+    margin-top: 54px;
+    margin-bottom: 50px;
+}
+
+input {
+    color: #64CD96;
+    padding: 10px;
+    font-size: 2vw;
+    border-color: #64CD96;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+::placeholder {
+    color: #64CD96;
+}
+
+button {
+    background: #64CD96;
+    color: white;
+    border-radius: 30px;
+    width: 140px;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    padding: 16px;
+    border: none;
+    font-size: 2vw;
+    margin-bottom: 50px;
+}
+
+
+footer {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    color: #64CD96;
+    font-size: 30px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
+}
+
+
+@media(max-width: 668px){
+    h1 {
+        margin-top: 20px;
+        text-align: center;;
+        font-size: 24px;
+    }
+    
+    h2 {
+        margin-left: 60px;
+        margin-top: 80px;
+        width: 250px;
+    }
+    
+   form {
+     margin-top: 60px;
+     margin-left: 0px;  
+     width: 150px;
+   }
+   
+   input {
+       font-size: 16px;
+   }
+   
+   button{
+       margin-left: 0px;
+   }
+   
+    footer {
+        font-size: 14px; 
+        margin-bottom: 20px;
+        margin-right: 16px;
+    }
+    
+    .fruitBowls{
+        margin-top: 160px;
+        height: 120px;
+        width: 100px;
+    }
+    
+    .drinks {
+        width: 100px;
+        height: 70px;
+    }
+    
+    .shake {
+        position: absolute;
+        width: 50px;
+        height: 70px;
+        left: 0; 
+        top: 430px;
+    }
+    
+    button {
+       font-size: 16px; 
+    }
+    
+    .burrito {
+        position: absolute;
+        top: 60px;
+        left: 105px;
+        width: 100px;
+        height: 80px;
+    }
+    
+    .pizza {
+        position: absolute;
+        top: 60px;
+        left: 230px;
+        width: 100px;
+        height: 80px;
+    }
+    
+    .bowl {
+        position: absolute;
+        top: 60px;
+        left: 350px;
+        width: 100px;
+        height: 80px;
+    }
+}
+
+
+
